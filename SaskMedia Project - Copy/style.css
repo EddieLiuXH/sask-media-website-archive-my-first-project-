@@ -1,0 +1,136 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-logo img {
+    max-height: 60px;
+    padding: 10px 0;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.navbar-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    color: #007bff;
+}
+
+.logo {
+    max-width: 200px; /* Set the maximum width of the logo */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Allows margin auto to work for horizontal centering */
+    margin: 10px auto; /* Vertical and horizontal centering */
+    padding: 5px; /* Add some space around the logo */
+    border: none; /* Remove any border if not needed, you can set it to have one if you like */
+    box-shadow: none; /* Optional: Adds a shadow for a 3D effect */
+}
+.logo:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+    cursor: pointer; /* Indicates the logo is clickable if it's a link */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+/*
+.hero {
+    background: #007bff;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+*/
+
+.hero {
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    height: 500px; /* Set a fixed height or as needed */
+    background: url(./Saskatoon\ city\ picture-winter_river.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+/* Services Section */
+.services-section {
+    padding: 40px 0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.service-item {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
